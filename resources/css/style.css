@@ -245,6 +245,11 @@ header {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+.hero-text-box .dash{
+	font-size: 60%;
+	color: #6c6c6c;
+	
+}
 
 .logo {
 	height: 100px;
