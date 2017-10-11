@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 	}, {
 		offset: '60px'
-//			offset: '60px'
+        //offset: '60px'
 	});
 
 
@@ -88,10 +88,12 @@ $(document).ready(function () {
 		
 		
 		if (icon.hasClass('ion-navicon-round')) {
-			icon.addClass('ion-close-round');
+            icon.addClass('ion-close-round');
+            $('.hero-text-box').addClass('hero-text-box-none')
 			icon.removeClass('ion-navicon-round');
 		} else {
-			icon.removeClass('ion-close-round');
+            icon.removeClass('ion-close-round');
+            $('.hero-text-box').removeClass('hero-text-box-none')
 			icon.addClass('ion-navicon-round');
 			
 		}
